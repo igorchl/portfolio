@@ -10,11 +10,15 @@ export default function Home() {
           </h1>
 
           <p className="text-xl mt-5 text-gray-300">
-            Desenvolvedor Backend Node.js | AWS Certified Cloud Practitioner
+            Desenvolvedor Backend Node.js
           </p>
 
           <p className="mt-3 text-gray-500">
-            Node.js • NestJS • AWS • REST APIs
+            Bacharel em Sistemas de Informação • AWS Certified Cloud Practitioner
+          </p>
+
+          <p className="mt-3 text-gray-500">
+            Node.js • NestJS • TypeScript • AWS • REST APIs
           </p>
         </section>
 
@@ -25,15 +29,20 @@ export default function Home() {
           </h2>
 
           <p className="text-gray-400 leading-8 text-lg">
-            Sou estudante de Sistemas de Informação e desenvolvedor backend
+            Sou Bacharel em Sistemas de Informação e desenvolvedor backend
             com experiência em Node.js, NestJS e AWS.
 
-            Tenho experiência prática no desenvolvimento de APIs REST,
-            arquitetura backend e integração com serviços cloud,
-            adquirida durante minha atuação na Compass UOL.
+            Durante minha trajetória acadêmica e profissional desenvolvi APIs REST,
+            aplicações backend escaláveis e soluções utilizando tecnologias modernas
+            do ecossistema JavaScript e computação em nuvem.
 
-            Busco evoluir constantemente em computação em nuvem,
-            desenvolvimento backend e arquitetura escalável.
+            Tenho experiência prática adquirida durante minha atuação na Compass UOL,
+            trabalhando com desenvolvimento backend, arquitetura de aplicações
+            e integração com serviços AWS.
+
+            Busco oportunidades para continuar evoluindo como desenvolvedor backend,
+            contribuindo em projetos de alta qualidade e ampliando meus conhecimentos
+            em arquitetura de software e computação em nuvem.
           </p>
         </section>
 
@@ -90,7 +99,6 @@ export default function Home() {
               boas práticas de desenvolvimento backend.
             </p>
 
-            {/* TECHS */}
             <div className="mt-8 flex flex-wrap gap-3">
               {[
                 "Node.js",
@@ -111,7 +119,6 @@ export default function Home() {
               ))}
             </div>
 
-            {/* FEATURES */}
             <div className="mt-10">
               <h4 className="text-xl font-semibold mb-5">
                 Features
@@ -153,17 +160,17 @@ export default function Home() {
               </h3>
 
               <span className="text-sm text-gray-500">
-                Backend & Cloud Journey
+                Estágio em Desenvolvimento Backend
               </span>
             </div>
 
             <p className="mt-5 text-gray-400 leading-8">
-              Experiência prática em desenvolvimento backend,
-              APIs REST e computação em nuvem utilizando AWS.
+              Atuação como estagiário em desenvolvimento backend na Compass UOL,
+              participando da trilha de formação em Node.js e AWS.
 
-              Atuação em projetos com foco em Node.js,
-              arquitetura backend, boas práticas de desenvolvimento
-              e integração com serviços cloud.
+              Desenvolvimento de APIs REST, aplicação de boas práticas de
+              arquitetura backend, versionamento com Git e integração com
+              serviços AWS durante projetos práticos da empresa.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">
@@ -187,6 +194,26 @@ export default function Home() {
               Clique para visualizar o certificado →
             </p>
           </a>
+        </section>
+
+        {/* FORMAÇÃO */}
+        <section className="mt-24">
+          <h2 className="text-3xl font-bold mb-8">
+            Formação Acadêmica
+          </h2>
+
+          <div className="border border-gray-800 rounded-2xl p-6">
+            <h3 className="text-2xl font-semibold">
+              Bacharelado em Sistemas de Informação
+            </h3>
+
+            <p className="mt-4 text-gray-400 leading-8">
+              Graduação concluída em Sistemas de Informação, com formação voltada
+              para desenvolvimento de software, engenharia de software,
+              bancos de dados, arquitetura de sistemas, computação em nuvem
+              e desenvolvimento backend.
+            </p>
+          </div>
         </section>
 
         {/* SKILLS */}
@@ -263,7 +290,7 @@ export default function Home() {
 
         {/* FOOTER */}
         <footer className="mt-24 border-t border-gray-800 pt-8 text-gray-500 text-sm flex justify-between flex-wrap gap-4">
-          <p>© 2025 Igor Santos</p>
+          <p>© 2026 Igor Santos</p>
 
           <p>Backend Developer • Node.js • AWS</p>
         </footer>
